@@ -1,0 +1,38 @@
+#root {
+  text-align: center;
+}
+
+.main{
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.table {background-color: white;
+border-radius: 5px;
+width: 300px;
+box-shadow:  4px 5px 5px grey;
+border-collapse: collapse;
+
+
+}
+td{
+  padding: 5px;
+  border-bottom:  1px solid #dddfe1;;
+}
+
+.caption{
+
+  text-align: left;
+  font-weight: bold;
+  font-size: x-large;
+  display: contents;
+}
+
+.title {
+  background-color: #888888d7;
+  width: 300px;
+}
